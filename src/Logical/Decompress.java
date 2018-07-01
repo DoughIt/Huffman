@@ -117,7 +117,7 @@ public class Decompress {
         byte[] bytes = new byte[len];
         inputStream.read(bytes);
         String name = new String(bytes);
-        return file.getAbsolutePath() + "\\" + name;
+        return file.getAbsolutePath() + System.getProperty("file.separator") + name;
     }
 
     private HuffmanTree.Node getHuffmanTree() throws Exception {
