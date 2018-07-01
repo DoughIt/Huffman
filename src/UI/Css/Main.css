@@ -1,0 +1,64 @@
+
+#bgImage {
+}
+
+#appName {
+    -fx-padding: 10px;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-font-smoothing-type: inherit;
+    -fx-font-family: "Cooper Black";
+    -fx-font-size: 30px;
+    -fx-font-weight: bolder;
+    -fx-text-fill: rgba(255, 255, 255, 1);
+    -fx-opacity: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, .1), 2, 2, 2, 1);
+}
+
+#bottomPane {
+    -fx-background-color: rgba(0, 0, 0, .5);
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-background-color: transparent;
+    -fx-font-family: "微软雅黑";
+    -fx-font-size: 20px;
+    -fx-text-fill: rgba(255, 255, 255, .8);
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, .2), .2, .2, 1, 1);
+    -fx-opacity: .8;
+}
+
+.label:hover {
+    -fx-background-color: rgba(255, 255, 255, .1);
+    -fx-text-fill: rgba(255, 255, 255, 1);
+    -fx-opacity: 1;
+}
+
+.labelDisabled {
+    -fx-background-color: rgba(255, 255, 255, .1);
+    -fx-text-fill: rgba(255, 255, 255, .6);
+    -fx-opacity: .8;
+}
+
+.labelDisabled:hover {
+    -fx-background-color: rgba(255, 255, 255, .1);
+    -fx-text-fill: rgba(255, 255, 255, .6);
+    -fx-opacity: .8;
+}
+
+#branchPane {
+    -fx-background-color: rgba(0, 0, 0, .2);
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+}
+
+#singleLabel {
+    -fx-border-color: rgba(0, 0, 0, .2) transparent rgba(0, 0, 0, .2) transparent;
+}
+
+#branchLabel:hover {
+    -fx-background-color: transparent;
+}
