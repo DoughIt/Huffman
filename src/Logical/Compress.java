@@ -51,7 +51,7 @@ public class Compress {
     private void writeName() throws Exception {
         //写入源文件名
         String name = srcFile.getName();
-        outputStream.write(name.length());
+        outputStream.write(name.getBytes().length);
         outputStream.write(name.getBytes());
     }
 
