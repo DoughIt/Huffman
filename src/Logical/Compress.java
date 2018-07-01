@@ -11,7 +11,6 @@ public class Compress {
     private BufferedOutputStream outputStream;
     private BufferedInputStream inputStream;
 
-
     public Compress(File srcFile, BufferedOutputStream outputStream) throws Exception {
         this.srcFile = srcFile;
         this.outputStream = outputStream;
@@ -129,5 +128,4 @@ public class Compress {
         bytesLength += 2;//最后不足八位的编码一字节，以及补零的一字节
         return bytesLength;
     }
-
 }
